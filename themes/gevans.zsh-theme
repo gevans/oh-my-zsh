@@ -10,7 +10,7 @@ typeset -A host_repr
 # translate hostnames into shortened, colorcoded strings
 host_repr=('gabriels-imac.lv.cox.net' "%{$fg_bold[blue]%}imac"
            'Chriss-Mac-Pro.local'     "%{$fg_bold[blue]%}mac-pro"
-           'gevans-laptop.local'      "%{$fg_bold[blue]%}vaio")
+           'gevans-laptop'      "%{$fg_bold[blue]%}vaio")
 
 # local time, color coded by last return code
 time_enabled="%(?.%{$fg[green]%}.%{$fg[red]%})%*%{$reset_color%}"
